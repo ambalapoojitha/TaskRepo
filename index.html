@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Static Website</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 2rem;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            display: flex;
+            justify-content: center;
+            padding: 0.5rem 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 8px 12px;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        .hero {
+            background-color: #f4f4f4;
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+
+        .hero h1 {
+            margin: 0;
+        }
+
+        .content {
+            padding: 2rem;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        @media (max-width: 600px) {
+            nav {
+                flex-direction: column;
+            }
+
+            nav a {
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>My Static Website</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <section class="hero">
+        <h1>Welcome to My Website</h1>
+        <p>This is a simple static website built with HTML and CSS.</p>
+    </section>
+
+    <section class="content">
+        <h2>About This Site</h2>
+        <p>This static site is an example of a clean, minimal design. It's easy to customize and host anywhere, including GitHub Pages, Netlify, or Vercel.</p>
+
+        <h2>Features</h2>
+        <ul>
+            <li>Responsive layout</li>
+            <li>Simple navigation</li>
+            <li>Clean, semantic HTML</li>
+            <li>Pure CSS styling</li>
+        </ul>
+    </section>
+
+    <footer>
+        &copy; 2025 My Static Website. All rights reserved.
+    </footer>
+
+</body>
+</html>
